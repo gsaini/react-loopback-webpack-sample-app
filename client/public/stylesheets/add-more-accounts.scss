@@ -1,0 +1,17 @@
+.add-more-accounts-container{
+    height: 100px;
+    background-color: #f7f7f9;
+    display: table;
+    width:100%;
+    color: #999999;
+
+    .wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+
+        span {
+            margin-right: 20px;
+        }
+    }
+}

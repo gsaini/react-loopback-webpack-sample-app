@@ -1,0 +1,72 @@
+
+.register-form-wrapper {
+    position: relative;
+    display: table-cell;
+
+    .register-form {
+        height: 740px;
+        padding: 25px 60px 50px;
+        margin: 0 auto;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+
+        .buttons{
+            margin: 25px 0;
+            text-align: center;
+
+            .btn {
+                width: 250px;
+                height: 60px;
+                border-radius: 30px;
+            }
+        }
+
+        .getting-started{
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .sign-in-info {
+            height: 60px;
+
+            span {
+                margin-right: 20px;
+                top: 10%;
+                position: relative;
+            }
+
+            span, button{
+                float: right;
+            }
+        }
+
+        label { 
+            text-transform: uppercase;
+            font-weight: bold;
+
+            &:not([for="email"]) { 
+                margin-top: 25px; 
+            }
+        }
+
+        p.footer{
+            text-align: center;
+        }
+
+        .alert-dismissible .close {
+            position: relative;
+            top: -.75rem;
+            right: -1.25rem;
+            padding: .75rem 1.25rem;
+            color: inherit;
+        }
+
+        button.close {
+            padding: 0;
+            cursor: pointer;
+            background: 0 0;
+            border: 0;
+            -webkit-appearance: none;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.left-panel {
+    vertical-align: top;
+    padding: 20px;
+
+    &.register, &.login, &.permissions, &.banks{
+        background-size: cover;
+        display: table-cell;
+        width: 30%;
+    }
+
+    &.register {
+        background-image: url('../img/register.png');
+    }
+
+    &.login {
+        background-image: url('../img/login.png');
+    }
+
+    &.permissions {
+        background-image: url('../img/permissions.png');
+    }
+
+    &.banks {
+        background-image: url('../img/banks.png');
+    }
+
+    div {
+        background-image: url('../img/Ezoro_Logo_BW.png');
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: 230px 60px;
+        background-position: center;
+    }
+}
+
+
+

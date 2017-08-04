@@ -1,0 +1,15 @@
+{
+  "files": {
+    "loopback#static": {
+      "params": "$!../.build"
+    }
+  },
+  "final:after": {
+    "strong-error-handler": {
+      "params": {
+         "debug": false,
+         "log": true
+       }
+    }
+  }
+}

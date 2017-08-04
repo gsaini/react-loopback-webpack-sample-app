@@ -1,0 +1,48 @@
+.login-form {
+    &-wrapper {
+        position: relative;
+        display: table-cell;
+    }
+
+    height: 740px;
+    padding: 25px 60px 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    .getting-started{
+        margin-top: 40px;
+    }
+
+    .sign-in-info {
+        height: 60px;
+        span {
+            margin-right: 20px;
+            top: 10%;
+            position: relative;
+        }
+
+        span, button {
+            float: right;
+        }
+    }
+
+    .buttons {
+        margin-top: 25px;
+        text-align: center;
+        .btn {
+            width: 250px;
+            height: 60px;
+            border-radius: 30px;
+        }
+    }
+
+    label {
+        text-transform: uppercase;
+        font-weight: bold;
+        
+        &:not([for="email"]) { 
+            margin-top: 25px; 
+        }
+    }
+}

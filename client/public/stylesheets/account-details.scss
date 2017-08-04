@@ -1,0 +1,78 @@
+@import "./_variables.scss";
+
+.container {
+    margin: 10px 150px;
+    color: #999999;
+}
+
+p {
+   margin: 0 30px 10px;
+}
+
+.accounts-container{
+  background-color: #fff;
+}
+
+.accounts-wrapper{
+  margin: 50px 200px;
+
+  .panel {
+    border: 1px solid #999999;
+    margin-bottom: 50px;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 25px; 
+
+    .account-details-wrapper {
+      p {
+        padding-left: 100px;
+      }
+      .bank-account-details {
+        font-weight: bold;
+        span {
+          margin-right: 10px;
+
+          &:first-child {
+            color: $theme-color;
+          }
+        }
+      }
+      .account-balance, .available-funds {
+        width: 85%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #999999;
+      }
+
+      .account-balance {
+        span {
+          font-size: 25px;
+        }
+      }
+    }
+
+    &:last-child{
+      margin-bottom: 0px; 
+    }
+
+    img {
+      height: 80px;
+      width: 120px;
+      position: absolute;
+      top: 15%;
+    }
+
+    .action-buttons {
+      display: table-cell;
+      width: 15%;
+
+      .btn {
+        width: 180px;
+        margin: 5px 0;
+        &:last-child {
+          margin-top: 66px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+    text-transform: uppercase; 
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 1px #999999;
+
+    &.navbar-light {
+        .navbar-brand, .navbar-toggler {
+            font-weight: bold;
+        }
+
+        .navbar-nav { 
+            font-weight: bold;
+            font-size: 12px;
+            color: #9c9fa4;
+            .nav-link {
+                padding-right: 2rem;
+                padding-left: 2rem;
+            }
+        }
+    }
+}
+

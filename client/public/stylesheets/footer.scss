@@ -1,0 +1,37 @@
+@import "./_variables.scss";
+
+footer.accounts-list { 
+    background-color: $theme-color; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    height: 240px;
+    text-transform: uppercase;
+    display: table;
+    width:100%;
+
+    .footer-links {
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: table-cell;
+        vertical-align: middle;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

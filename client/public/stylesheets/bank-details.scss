@@ -1,0 +1,35 @@
+.bank-details {
+    background: #fff;
+    padding: 25px 50px;
+    position: relative;
+
+    .banks-list {
+      margin: 50px 0 25px;
+
+      .image-name {
+        font-size: 15px;
+        position: relative;
+        left: 100px;
+        bottom: 60px;
+        margin-right: 10%;
+      }
+
+      .image-size {
+          height: 90px;
+          width: 95px;
+      }
+    }
+
+    .buttons {
+      margin-top: 25px;
+      text-align: center;
+
+      .btn {
+        width: 250px;
+        height: 50px;
+        border-radius: 30px;
+      }
+    }
+
+    
+}

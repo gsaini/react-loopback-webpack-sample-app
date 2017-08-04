@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+body { 
+    min-height:100%;
+    background: #eee;
+}
+
+.app-container{
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: table;
+    width: 100%;
+}
+
+button.btn {
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: $theme-color;
+    border-color: $theme-color;
+}
